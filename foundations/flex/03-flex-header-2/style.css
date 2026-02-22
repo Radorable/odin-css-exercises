@@ -20,15 +20,11 @@ body {
   gap: 18px;
 }
 
-.left {
+.left, .right {
   /* border: 2px solid; */
   display: flex;
-}
-
-.right {
-  /* border: 2px solid; */
-  display: flex;
-  gap: 16px;
+  gap: 8px;
+  align-items: center;
 }
 
 .profile-image {
@@ -56,13 +52,6 @@ button {
   padding: 8px 24px;
 }
 
-.links {
-  display: flex;
-  gap: 16px;
-
-  /* border: 2px solid; */
-}
-
 a {
   /* this removes the line under our links */
   text-decoration: none;
@@ -71,4 +60,8 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
