@@ -16,7 +16,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 16px;
 }
 
 /* me */
@@ -28,15 +28,15 @@ body {
 /* me */
 .left-links, .right-links {
   display: flex;
-  gap: 15px;
-  margin: 5px;
+  gap: 16px;
+  margin: 0;
 
   list-style: none;
 }
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: #666;
 }
 
 /* me */
@@ -48,10 +48,11 @@ a {
 /* me */
 .content {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
+  flex: 1;
   justify-content: center;
-  gap: 15px;
-  width: 40%;
+  align-items: center;
+  gap: 16px;
 }
 
 img {
@@ -63,6 +64,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+/*me */
+  padding: 8px 16px;
 }
 
 input {
@@ -79,5 +82,5 @@ input {
   display: flex;
   justify-content: space-between;
   background-color: rgba(211, 211, 211, 0.489);
-  padding: 10px;
+  padding: 16px;
 }
